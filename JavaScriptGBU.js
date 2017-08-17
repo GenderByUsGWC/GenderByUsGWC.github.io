@@ -132,7 +132,7 @@ function carousel() {
             popup.setAttribute("class", "tooltiptextf");
             newcurrent.appendChild(popup);
 
-            var hovertext=document.createTextNode(defslist[allwords.indexOf(yourfemalewords[i])]);
+            var hovertext=document.createTextNode(defslist[allwordsforindex.indexOf(yourfemalewords[i])]);
             popup.appendChild(hovertext);
 
             var brek=document.createElement("br");
@@ -154,7 +154,7 @@ function carousel() {
             popup.setAttribute("class", "tooltiptextm");
             newcurrent.appendChild(popup);
 
-            var hovertext=document.createTextNode(defslist[allwords.indexOf(yourmalewords[i])]);
+            var hovertext=document.createTextNode(defslist[allwordsforindex.indexOf(yourmalewords[i])]);
             popup.appendChild(hovertext);
 
             var brek=document.createElement("br");
@@ -179,8 +179,6 @@ function carousel() {
   document.getElementById("gameinstructions").style.display = 'none';
   display();
   shuffle(allwords);
-  console.log(allwords);
-  console.log(defslist);
   x=printwords();
   document.addEventListener("keydown", keyDownHandler);
   }
