@@ -1,0 +1,123 @@
+body{
+  background-image: url("grain.gif");
+}
+
+.ourMissionSquare{
+background-color: #3A445D;
+  border: 1px solid black;
+  width:300px;
+  height: 300px;
+  position:absolute;
+  left:50px;
+}
+.whoWeAreSquare{
+  background-color: #3A445D;
+  border: 1px solid black;
+  width:300px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.contactUsSquare{
+  background-color: #3A445D;
+  border: 1px solid black;
+  width:300px;
+  height: 300px;
+  position:absolute;
+  right:50px;
+}
+
+
+#ourMissionRect{
+
+  width:300px;
+  height: 800px;
+  background:white;
+  position:absolute;
+  left:50px;
+}
+#whoWeAreRect{
+  position:relative
+  right: 0;
+  width:300px;
+  height:800px;
+  background-color:white;
+  margin: 0 auto;
+}
+#contactUsRect{
+  position:relative
+  right: 0;
+  width:300px;
+  height:800px;
+  background-color:white;
+  position:absolute;
+  right:50px;
+}
+
+.missionSquares{
+  border: 2px black;
+
+}
+
+h1 {
+    position:relative;
+    text-align: center;
+    font-family: 'Didact Gothic';
+    font-size: 220%;
+    vertical-align: top;
+    color: white;
+    padding-top: 0px;
+    font-weight: bold;
+
+}
+
+h2 {
+    position:relative;
+    text-align: center;
+    font-family: 'Didact Gothic';
+    font-size: 140%;
+    color: black;
+}
+
+h4{
+  position:relative;
+  font-family: 'Didact Gothic';
+  font-size: 150%;
+  color: black;
+  text-align: left;
+  font-weight: normal;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top:10px;
+  text-indent: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+p {
+  position:relative;
+  text-align: center;
+  font-family: 'Didact Gothic';
+  font-size: 120%;
+  color: black;
+}
+
+.fa {
+  padding: 12px;
+  font-size: 19px;
+  width: 8px;
+  height: 8px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}

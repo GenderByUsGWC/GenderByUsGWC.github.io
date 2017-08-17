@@ -1,0 +1,338 @@
+.content {
+    max-width: 1400px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+}
+
+p{
+  position:relative;
+  text-align: left;
+  font-family: 'Assistant';
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  padding:12px;
+  vertical-align: middle;
+  font-weight: normal;
+
+}
+
+
+
+h1{
+  position:relative;
+  text-align: left;
+  font-family: 'Assistant';
+  font-size: 27px;
+  color: black;
+  vertical-align: middle;
+  padding-left: 13px;
+  padding-right: 10px;
+  font-weight: normal;
+}
+
+h3{
+  position:relative;
+  text-align: left;
+  font-family: 'Assistant';
+  font-size: 27px;
+  color: black;
+  vertical-align: middle;
+  padding-left: 20px;
+  padding-right: 10px;
+  font-weight: normal;
+
+}
+
+h4{
+  position:relative;
+  text-align: left;
+  font-family: 'Assistant';
+  font-size: 25px;
+  color: black;
+  vertical-align: middle;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: normal;
+}
+
+h5{
+  position:relative;
+  text-align: left;
+  font-family: 'Assistant';
+  font-size: 25px;
+  color: black;
+  vertical-align: middle;
+  padding-left: 20px;
+  padding-right: 10px;
+  font-weight: normal;
+}
+
+h2{
+
+  position:relative;
+  font-family: 'Didact Gothic';
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  vertical-align: middle
+}
+
+#theword{
+  position: relative;
+  bottom: 280px;
+  text-align: center;
+  font-size: 50px;
+}
+
+
+#border2{
+  border-top:30px solid;
+  border-bottom:30px solid;
+  color: #E16036;
+  border-left:1px solid;
+  border-right:1px solid;
+  border-bottom:1px solid;
+  width:300px;
+  height: 260px;
+  background-color: white;
+  position:relative;
+
+}
+
+#border{
+  border-top:30px solid;
+  border-bottom:30px solid;
+  color:#FFB200;
+  border-left:1px solid;
+  border-right:1px solid;
+  border-bottom:1px solid;
+  width:300px;
+  height: 260px;
+  background-color:white;
+
+}
+
+#border3{
+  border-top:30px solid;
+  border-bottom:30px solid;
+  color:#008C8C;
+  border-left:1px solid;
+  border-right:1px solid;
+  border-bottom:1px solid;
+  width:300px;
+  height: 260px;
+  background-color:white;
+  position:relative;
+
+}
+
+th, td {
+    padding: 25px;
+}
+
+
+.biggerContainer{
+  border-top:2px solid;
+  border-left:2px solid;
+  border-right:2px solid;
+  border-bottom:2px solid;
+  padding-left:50px;
+  padding-right:50px;
+}
+
+
+#female{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    width: 175px;
+}
+#male{
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    width: 168px;
+    position: absolute;
+    bottom: 150px;
+    left:85%;
+
+}
+
+#femaleheader{
+  position:absolute;
+  left: 115px;
+  text-align: left;
+  font-family: 'Didact Gothic';
+  font-size: 200%;
+  color: black;
+  padding-top: 12px;
+}
+
+#maleheader{
+  position:absolute;
+  left:83%;
+  text-align: right;
+  font-family: 'Didact Gothic';
+  font-size: 200%;
+  color: black;
+  padding-top: 12px;
+}
+
+#gameheader{
+  position:relative;
+  text-align: center;
+  font-family: 'Didact Gothic';
+  font-size: 200%;
+  color: black;
+  padding-top: 12px;
+}
+
+#printedyourmwords{
+  right:200px;
+}
+#printedyourfwords{
+  left:20px;
+}
+
+.button {
+  padding: 15px 25px;
+  text-align: center;
+  background-color: #FFBA08;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px ;
+  cursor: pointer;
+  font-family: 'Didact Gothic';
+  outline: none;
+  color: #fff;
+  border: none;
+
+}
+
+.button:hover {
+  background-color: #008C8C;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.button:active {
+  background-color: #008C8C;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+
+}
+
+#im{
+ position:relative;
+  left:47.5%;
+
+}
+#im:hover{
+  filter: opacity(0.12);
+}
+
+.startgamebutton{
+  border:none;
+  padding:20px;
+  color:#E16036;
+  text-shadow: -1.75px 0 black, 0 1.75px black, 1.75px 0 black, 0 -1.75px black;
+  font-family:'Didact Gothic';
+  font-size: 25px;
+  background-color: #008C8C;
+}
+.startgamebutton:hover{
+  background-color:#FFB200;
+}
+
+.startgamebutton:active {
+  background-color: #008C8C;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#printedyourmwords{
+  text-align: right;
+  margin-left: 215px;
+
+}
+#printedyourfwords{
+  text-align: left;
+  margin-left: 140px;
+
+}
+
+#headf{
+  text-align: center;
+}
+
+#headm{
+  position:relative;
+  text-align: center;
+}
+
+table, tr, th{
+padding: 15px;
+vertical-align: top;
+}
+
+.tooltipf {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltipf .tooltiptextf {
+    visibility: hidden;
+    font-size: 90%;
+    width: 220px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -15px;
+    right: 105%;
+}
+
+.tooltipf:hover .tooltiptextf {
+    visibility: visible;
+}
+
+.tooltipm {
+        position: relative;
+        display: inline-block;
+    }
+
+.tooltipm .tooltiptextm {
+        visibility: hidden;
+        font-size: 90%;
+        width: 220px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 10px 0;
+
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+        top: -15px;
+        left: 105%;
+    }
+
+.tooltipm:hover .tooltiptextm {
+        visibility: visible;
